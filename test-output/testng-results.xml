@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Successfully navigate to electronics page]]>
+    </line>
+    <line>
+      <![CDATA[Product is successfully added to the cart]]>
+    </line>
+    <line>
+      <![CDATA[All radio buttons are working]]>
+    </line>
+    <line>
+      <![CDATA[Portable devices displayed correctly]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-08-31T14:44:44 IST" name="Default suite" finished-at="2024-08-31T14:46:31 IST" duration-ms="106671">
+    <groups>
+    </groups>
+    <test started-at="2024-08-31T14:44:44 IST" name="Default test" finished-at="2024-08-31T14:46:31 IST" duration-ms="106671">
+      <class name="NaptolTest.ConsumerElectronicsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:NaptolTest.ConsumerElectronicsTest@223d2c72]" started-at="2024-08-31T14:44:44 IST" name="setup" finished-at="2024-08-31T14:44:54 IST" duration-ms="9486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="reportSetup()[pri:0, instance:NaptolTest.ConsumerElectronicsTest@223d2c72]" started-at="2024-08-31T14:44:54 IST" name="reportSetup" finished-at="2024-08-31T14:44:54 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSetup -->
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:NaptolTest.ConsumerElectronicsTest@223d2c72]" started-at="2024-08-31T14:44:54 IST" name="testSetup" finished-at="2024-08-31T14:44:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="navigationAndSearchingTest()[pri:0, instance:NaptolTest.ConsumerElectronicsTest@223d2c72]" started-at="2024-08-31T14:44:54 IST" name="navigationAndSearchingTest" finished-at="2024-08-31T14:45:02 IST" duration-ms="7880" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully navigate to electronics page]]>
+            </line>
+            <line>
+              <![CDATA[Product is successfully added to the cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigationAndSearchingTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:NaptolTest.ConsumerElectronicsTest@223d2c72]" started-at="2024-08-31T14:45:02 IST" name="getResult" finished-at="2024-08-31T14:45:02 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigationAndSearchingTest status=SUCCESS method=ConsumerElectronicsTest.navigationAndSearchingTest()[pri:0, instance:NaptolTest.ConsumerElectronicsTest@223d2c72] output=Successfully navigate to electronics page]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:NaptolTest.ConsumerElectronicsTest@223d2c72]" started-at="2024-08-31T14:45:02 IST" name="testSetup" finished-at="2024-08-31T14:45:02 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="electronicsAndAccessoriesTest()[pri:1, instance:NaptolTest.ConsumerElectronicsTest@223d2c72]" started-at="2024-08-31T14:45:02 IST" name="electronicsAndAccessoriesTest" finished-at="2024-08-31T14:45:18 IST" duration-ms="15997" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[All radio buttons are working]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- electronicsAndAccessoriesTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:NaptolTest.ConsumerElectronicsTest@223d2c72]" started-at="2024-08-31T14:45:18 IST" name="getResult" finished-at="2024-08-31T14:45:18 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=electronicsAndAccessoriesTest status=SUCCESS method=ConsumerElectronicsTest.electronicsAndAccessoriesTest()[pri:1, instance:NaptolTest.ConsumerElectronicsTest@223d2c72] output=All radio buttons are working]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:NaptolTest.ConsumerElectronicsTest@223d2c72]" started-at="2024-08-31T14:45:18 IST" name="testSetup" finished-at="2024-08-31T14:45:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="portableDevicesTest()[pri:2, instance:NaptolTest.ConsumerElectronicsTest@223d2c72]" started-at="2024-08-31T14:45:18 IST" name="portableDevicesTest" finished-at="2024-08-31T14:45:33 IST" duration-ms="15337" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Portable devices displayed correctly]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- portableDevicesTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:NaptolTest.ConsumerElectronicsTest@223d2c72]" started-at="2024-08-31T14:45:33 IST" name="getResult" finished-at="2024-08-31T14:45:33 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=portableDevicesTest status=SUCCESS method=ConsumerElectronicsTest.portableDevicesTest()[pri:2, instance:NaptolTest.ConsumerElectronicsTest@223d2c72] output=Portable devices displayed correctly]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="securityAndGadgetTest()[pri:3, instance:NaptolTest.ConsumerElectronicsTest@223d2c72]" started-at="2024-08-31T14:45:33 IST" name="securityAndGadgetTest" finished-at="2024-08-31T14:45:50 IST" duration-ms="16893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- securityAndGadgetTest -->
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:NaptolTest.ConsumerElectronicsTest@223d2c72]" started-at="2024-08-31T14:45:33 IST" name="testSetup" finished-at="2024-08-31T14:45:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:NaptolTest.ConsumerElectronicsTest@223d2c72]" started-at="2024-08-31T14:45:50 IST" name="getResult" finished-at="2024-08-31T14:45:50 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=securityAndGadgetTest status=SUCCESS method=ConsumerElectronicsTest.securityAndGadgetTest()[pri:3, instance:NaptolTest.ConsumerElectronicsTest@223d2c72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="homeEntertainmentPageTest()[pri:4, instance:NaptolTest.ConsumerElectronicsTest@223d2c72]" started-at="2024-08-31T14:45:50 IST" name="homeEntertainmentPageTest" finished-at="2024-08-31T14:46:11 IST" duration-ms="20490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeEntertainmentPageTest -->
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:NaptolTest.ConsumerElectronicsTest@223d2c72]" started-at="2024-08-31T14:45:50 IST" name="testSetup" finished-at="2024-08-31T14:45:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:NaptolTest.ConsumerElectronicsTest@223d2c72]" started-at="2024-08-31T14:46:11 IST" name="getResult" finished-at="2024-08-31T14:46:11 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=homeEntertainmentPageTest status=SUCCESS method=ConsumerElectronicsTest.homeEntertainmentPageTest()[pri:4, instance:NaptolTest.ConsumerElectronicsTest@223d2c72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:NaptolTest.ConsumerElectronicsTest@223d2c72]" started-at="2024-08-31T14:46:11 IST" name="testSetup" finished-at="2024-08-31T14:46:11 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="portableAudioPageTest()[pri:5, instance:NaptolTest.ConsumerElectronicsTest@223d2c72]" started-at="2024-08-31T14:46:11 IST" name="portableAudioPageTest" finished-at="2024-08-31T14:46:22 IST" duration-ms="11646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- portableAudioPageTest -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:NaptolTest.ConsumerElectronicsTest@223d2c72]" started-at="2024-08-31T14:46:22 IST" name="getResult" finished-at="2024-08-31T14:46:22 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=portableAudioPageTest status=SUCCESS method=ConsumerElectronicsTest.portableAudioPageTest()[pri:5, instance:NaptolTest.ConsumerElectronicsTest@223d2c72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="printersPageTest()[pri:6, instance:NaptolTest.ConsumerElectronicsTest@223d2c72]" started-at="2024-08-31T14:46:22 IST" name="printersPageTest" finished-at="2024-08-31T14:46:31 IST" duration-ms="8118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printersPageTest -->
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:NaptolTest.ConsumerElectronicsTest@223d2c72]" started-at="2024-08-31T14:46:22 IST" name="testSetup" finished-at="2024-08-31T14:46:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:NaptolTest.ConsumerElectronicsTest@223d2c72]" started-at="2024-08-31T14:46:31 IST" name="endReport" finished-at="2024-08-31T14:46:31 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:NaptolTest.ConsumerElectronicsTest@223d2c72]" started-at="2024-08-31T14:46:31 IST" name="getResult" finished-at="2024-08-31T14:46:31 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=printersPageTest status=SUCCESS method=ConsumerElectronicsTest.printersPageTest()[pri:6, instance:NaptolTest.ConsumerElectronicsTest@223d2c72] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:NaptolTest.ConsumerElectronicsTest@223d2c72]" started-at="2024-08-31T14:46:31 IST" name="teardown" finished-at="2024-08-31T14:46:31 IST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- NaptolTest.ConsumerElectronicsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
