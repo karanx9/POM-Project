@@ -20,6 +20,9 @@ public class Basetest {
     protected String qty;
     protected String from;
     protected String to;
+     protected String pname2;
+    protected String pname3;
+    protected String pname4;
     
     // Page object instances
     HomePage home;
@@ -45,6 +48,9 @@ public class Basetest {
         qty = ConfigReader.getProperty("qty");
         from = ConfigReader.getProperty("from");
         to = ConfigReader.getProperty("to");
+        pname2 = ConfigReader.getProperty("pname2");
+        pname3 = ConfigReader.getProperty("pname3");
+        pname4 = ConfigReader.getProperty("pname4");		
         
         // Initialize page objects
         home = new HomePage(driver);
