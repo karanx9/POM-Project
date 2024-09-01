@@ -66,7 +66,7 @@ public class ConsumerElectronicsTest extends Basetest {
         ss.capture(driver, 0);
         
         consumers = new ConsumerElectronicsPage(driver);
-        boolean addToCartTest = consumers.searchproductandaddtocart(productname);
+        boolean addToCartTest = consumers.searchproductandaddtocart(productname,pname2,pname3,pname4);
         test.log(LogStatus.PASS, "Searching product and checking results");
         Assert.assertTrue(addToCartTest, "Product is successfully added to the cart");
         Reporter.log("Product is successfully added to the cart", true);
