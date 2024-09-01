@@ -139,6 +139,24 @@ public class ConsumerElectronicsPage {
         // Set implicit wait for element loading
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
+        
+        Thread.sleep(700);
+        Search.sendKeys(pname2);
+        Search.click();
+        Search.clear();
+        Search.sendKeys(pname3);
+        searchbutton.click();
+        
+        //Asserting the text with actual result
+        String text = "Either no product matches the word entered by you or please remove some of filter options selected to see products.";
+        String actual = "Either no product matches the word entered by you or please remove some of filter options selected to see products.";
+        Assert.assertEquals(text, actual);
+        
+        //performing search opeartions
+        Search.clear();
+        Search.sendKeys(pname4);
+        searchbutton.click();
+        Search.clear();
         // Perform search
         Search.sendKeys(productName);
         searchbutton.click();
